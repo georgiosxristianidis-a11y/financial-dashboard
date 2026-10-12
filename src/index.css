@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@import "@fontsource-variable/epilogue";
+
+@layer base {
+  body {
+    font-family: 'Epilogue Variable', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+}
