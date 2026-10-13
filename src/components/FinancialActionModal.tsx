@@ -8,8 +8,7 @@ export function FinancialActionModal() {
     activeModal,
     setActiveModal,
     cryptoAssets,
-    executeTransaction,
-    overallBalanceScaled
+    executeTransaction
   } = useFinancialDashboardStore();
 
   const [selectedAssetId, setSelectedAssetId] = React.useState<string>(cryptoAssets[0]?.id || 'btc');

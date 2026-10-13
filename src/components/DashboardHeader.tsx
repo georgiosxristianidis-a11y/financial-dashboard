@@ -1,5 +1,5 @@
 import React from 'react';
-import { LayoutGrid, PieChart, CreditCard, ShoppingBag, Settings, ShieldCheck, Eye, EyeOff, ClipboardList, Sparkles } from 'lucide-react';
+import { PieChart, CreditCard, ShoppingBag, Settings, Eye, EyeOff, ClipboardList, Sparkles } from 'lucide-react';
 import { useFinancialDashboardStore } from '../store/useFinancialDashboardStore';
 
 interface DashboardHeaderProps {

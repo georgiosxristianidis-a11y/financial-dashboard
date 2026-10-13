@@ -3,7 +3,6 @@
  * Eliminates IEEE-754 floating-point inaccuracies without external dependencies.
  */
 
-const DEFAULT_SCALE = 10000n; // 4 decimal places
 const DEFAULT_DECIMALS = 4;
 
 export class CurrencyMath {
